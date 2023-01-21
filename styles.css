@@ -1,0 +1,65 @@
+.edit-button {
+    background-color: #00a600;
+    color: white;
+    border: none;
+    height: 44px;
+    width: 105px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 10px;
+}
+.edit-button:hover {
+    opacity: 0.8;
+}
+
+.confirm-mail-button {
+    background-color: #00a600;
+    color: white;
+    border: none;
+    height: 44px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 19px;
+}
+.confirm-mail-button:hover {
+    opacity: 0.8;
+}
+
+.personal-data-list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 24px;
+    row-gap: 10px;
+    list-style: none;
+    padding: 10px;
+    padding-left: 0;
+    margin: 0;
+}
+
+.personal-data {
+    border: 2px solid rgb(222, 222, 222);
+}
+
+.all-personal-data {
+    position: relative;
+}
+
+main {
+    padding-left: 20%;
+    padding-right: 5%;
+    padding-top: 10%;
+}
+
+.personal-data-value {
+    font-weight: bold;
+}
+
+.personal-data-label {
+    color: #c7c7c7;
+}
+
+.personal-data-header {
+    margin: 0;
+}
